@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shivlingi Water Proofing | 25+ Years of Trusted Waterproofing & Construction Solutions</title>
+  <meta name="description" content="Shivlingi Water Proofing — Delhi's most trusted waterproofing and construction company with 25+ years of experience. Services include waterproofing, civil work, PU coating, grouting, APP membrane, and more." />
+  <meta name="keywords" content="waterproofing Delhi, construction company Delhi, roof waterproofing, PU coating, grouting, civil work, Dwarka Delhi, Shivlingi Water Proofing" />
+  <meta name="author" content="Shivlingi Water Proofing" />
+  <meta property="og:title" content="Shivlingi Water Proofing | Trusted Since 25+ Years" />
+  <meta property="og:description" content="Professional waterproofing and construction services in Delhi NCR. Residential, commercial, and metro infrastructure projects." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'DM Sans', sans-serif; color: #1a2332; background: #fff; overflow-x: hidden; }
+
+    :root {
+      --navy: #0d1f3c;
+      --blue: #1565c0;
+      --sky: #42a5f5;
+      --accent: #e8a020;
+      --light-blue: #e8f1fb;
+      --slate: #4a5568;
+      --light-grey: #f5f7fa;
+      --border: #dde3ed;
+      --text-muted: #6b7280;
+      --shadow-sm: 0 2px 8px rgba(13,31,60,.06);
+      --shadow-md: 0 8px 32px rgba(13,31,60,.10);
+      --shadow-lg: 0 20px 60px rgba(13,31,60,.14);
+      --radius: 12px;
+      --radius-lg: 20px;
+      --tr: 0.3s cubic-bezier(.4,0,.2,1);
+    }
+
+    h1,h2,h3,h4 { font-family: 'Playfair Display', serif; line-height: 1.15; }
+    p { line-height: 1.7; }
+    a { text-decoration: none; color: inherit; }
+
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .section-pad { padding: 96px 0; }
+    .section-head { text-align: center; margin-bottom: 60px; }
+
+    .section-label {
+      display: inline-block; font-size: .75rem; font-weight: 600;
+      letter-spacing: .15em; text-transform: uppercase;
+      color: var(--blue); background: var(--light-blue);
+      padding: 6px 16px; border-radius: 40px; margin-bottom: 16px;
+    }
+    .section-title { font-size: clamp(2rem,4vw,2.8rem); color: var(--navy); margin-bottom: 16px; }
+    .section-sub { font-size: 1.05rem; color: var(--text-muted); max-width: 560px; margin: 0 auto; }
+    .divider { width: 56px; height: 4px; background: linear-gradient(90deg,var(--blue),var(--sky)); border-radius: 2px; margin: 20px auto 40px; }
+
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 32px; border-radius: 8px;
+      font-family: 'DM Sans', sans-serif; font-weight: 600; font-size: .95rem;
+      cursor: pointer; transition: var(--tr); border: none;
+    }
+    .btn-primary { background: var(--blue); color: #fff; box-shadow: 0 4px 20px rgba(21,101,192,.35); }
+    .btn-primary:hover { background: #0d47a1; transform: translateY(-2px); box-shadow: 0 8px 28px rgba(21,101,192,.45); }
+    .btn-outline { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,.8); }
+    .btn-outline:hover { background: rgba(255,255,255,.12); transform: translateY(-2px); }
+    .btn-accent { background: var(--accent); color: #fff; box-shadow: 0 4px 20px rgba(232,160,32,.35); }
+    .btn-accent:hover { background: #c8850e; transform: translateY(-2px); }
+
+    .reveal { opacity: 0; transform: translateY(32px); transition: opacity .7s ease,transform .7s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+    .reveal-left { opacity: 0; transform: translateX(-40px); transition: opacity .7s ease,transform .7s ease; }
+    .reveal-left.visible { opacity: 1; transform: none; }
+    .reveal-right { opacity: 0; transform: translateX(40px); transition: opacity .7s ease,transform .7s ease; }
+    .reveal-right.visible { opacity: 1; transform: none; }
+
+    /* GUARANTEE STRIP */
+    .guarantee-strip {
+      background: linear-gradient(90deg,var(--accent),#f5b942);
+      padding: 6px 0; text-align: center;
+      font-size: .82rem; font-weight: 600; color: #fff; letter-spacing: .04em;
+    }
+
+    /* NAVBAR */
+    #navbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: transparent; transition: background .3s,box-shadow .3s,padding .3s;
+      padding: 18px 0;
+    }
+    #navbar.scrolled {
+      background: rgba(13,31,60,.97); box-shadow: 0 4px 32px rgba(0,0,0,.18);
+      padding: 10px 0; backdrop-filter: blur(12px);
+    }
+    .nav-inner { display: flex; align-items: center; justify-content: space-between; }
+    .nav-logo { display: flex; align-items: center; gap: 12px; }
+    .nav-logo-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: linear-gradient(135deg,var(--blue),var(--sky));
+      display: flex; align-items: center; justify-content: center; font-size: 1.4rem;
+    }
+    .nav-logo-text .brand { font-family: 'Playfair Display',serif; font-size: 1.05rem; font-weight: 700; color: #fff; line-height: 1.1; }
+    .nav-logo-text .tagline { font-size: .68rem; color: rgba(255,255,255,.6); font-weight: 300; }
+    .nav-links { display: flex; align-items: center; gap: 28px; list-style: none; }
+    .nav-links a { color: rgba(255,255,255,.85); font-size: .88rem; font-weight: 500; position: relative; transition: color var(--tr); }
+    .nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; right: 0; height: 2px; background: var(--sky); transform: scaleX(0); transition: transform var(--tr); border-radius: 1px; }
+    .nav-links a:hover { color: #fff; }
+    .nav-links a:hover::after { transform: scaleX(1); }
+    .nav-cta { background: var(--accent) !important; color: #fff !important; padding: 9px 20px !important; border-radius: 8px; font-weight: 600 !important; }
+    .nav-cta::after { display: none !important; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+    .hamburger span { width: 24px; height: 2px; background: #fff; border-radius: 2px; }
+    @media(max-width:900px) { .nav-links { display: none; } .hamburger { display: flex; } }
+    .mobile-nav { display: none; position: fixed; inset: 0; background: var(--navy); z-index: 999; flex-direction: column; align-items: center; justify-content: center; gap: 28px; }
+    .mobile-nav.open { display: flex; }
+    .mobile-nav a { color: #fff; font-size: 1.4rem; font-family: 'Playfair Display',serif; }
+    .mobile-nav a:hover { color: var(--sky); }
+    .mobile-nav-close { position: absolute; top: 24px; right: 24px; background: none; border: none; color: #fff; font-size: 1.8rem; cursor: pointer; }
+
+    /* HERO */
+    #hero { min-height: 100vh; position: relative; display: flex; align-items: center; overflow: hidden; }
+    .hero-bg { position: absolute; inset: 0; background: linear-gradient(135deg,#0a1628 0%,#0d2d5e 45%,#0a3d7a 70%,#0b4a8f 100%); }
+    .hero-shapes { position: absolute; inset: 0; overflow: hidden; pointer-events: none; }
+    .hero-shape { position: absolute; border-radius: 50%; opacity: .05; animation: float 8s ease-in-out infinite; }
+    .hero-shape:nth-child(1) { width: 600px; height: 600px; background: var(--sky); top: -200px; right: -100px; }
+    .hero-shape:nth-child(2) { width: 400px; height: 400px; background: var(--blue); bottom: -100px; left: -100px; animation-delay: -3s; }
+    .hero-shape:nth-child(3) { width: 200px; height: 200px; background: var(--accent); top: 40%; left: 30%; animation-delay: -5s; }
+    @keyframes float { 0%,100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-20px) scale(1.04); } }
+    .hero-grid { position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px); background-size: 60px 60px; }
+    .hero-content { position: relative; z-index: 2; padding: 140px 0 80px; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,.1); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,.2); color: #fff; font-size: .8rem; font-weight: 500; padding: 8px 18px; border-radius: 40px; margin-bottom: 28px; }
+    .hero-badge-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); animation: pulse 2s ease infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: .6; transform: scale(.8); } }
+    .hero-title { font-size: clamp(2.2rem,5.5vw,4rem); color: #fff; line-height: 1.1; margin-bottom: 24px; max-width: 700px; }
+    .hero-title .accent-text { color: var(--sky); }
+    .hero-sub { font-size: 1.1rem; color: rgba(255,255,255,.75); max-width: 520px; margin-bottom: 40px; font-weight: 300; }
+    .hero-buttons { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 64px; }
+    .hero-stats { display: flex; flex-wrap: wrap; gap: 40px; padding-top: 48px; border-top: 1px solid rgba(255,255,255,.1); }
+    .hero-stat-num { font-family: 'Playfair Display',serif; font-size: 2.4rem; color: #fff; line-height: 1; }
+    .hero-stat-label { font-size: .78rem; color: rgba(255,255,255,.55); margin-top: 4px; }
+    .hero-stat-accent { color: var(--sky); }
+    .scroll-ind { position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 8px; color: rgba(255,255,255,.4); font-size: .7rem; letter-spacing: .1em; animation: bounce 2s ease infinite; }
+    .scroll-ind::after { content: ''; width: 1px; height: 48px; background: linear-gradient(to bottom,rgba(255,255,255,.3),transparent); }
+    @keyframes bounce { 0%,100% { transform: translateX(-50%) translateY(0); } 50% { transform: translateX(-50%) translateY(8px); } }
+
+    /* TRUST BAR */
+    .trust-bar { background: var(--navy); padding: 18px 0; border-bottom: 1px solid rgba(255,255,255,.06); }
+    .trust-bar-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+    .trust-item { display: flex; align-items: center; gap: 10px; color: rgba(255,255,255,.72); font-size: .84rem; }
+    .trust-item-icon { color: var(--sky); }
+    .trust-div { width: 1px; height: 20px; background: rgba(255,255,255,.1); }
+    @media(max-width:600px) { .trust-div { display: none; } }
+
+    /* ABOUT */
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    @media(max-width:900px) { .about-grid { grid-template-columns: 1fr; gap: 40px; } }
+    .about-visual { position: relative; }
+    .about-main-img { width: 100%; border-radius: var(--radius-lg); aspect-ratio: 4/3; background: linear-gradient(135deg,#0d2d5e,#1565c0); display: flex; align-items: center; justify-content: center; }
+    .about-img-placeholder { text-align: center; color: rgba(255,255,255,.75); }
+    .about-img-placeholder .big-icon { font-size: 5rem; margin-bottom: 12px; }
+    .about-float-card { position: absolute; background: #fff; border-radius: var(--radius); box-shadow: var(--shadow-lg); padding: 18px 22px; display: flex; align-items: center; gap: 12px; }
+    .afc1 { bottom: -24px; left: -24px; }
+    .afc2 { top: -20px; right: -20px; }
+    .about-float-icon { width: 44px; height: 44px; border-radius: 10px; background: var(--light-blue); display: flex; align-items: center; justify-content: center; font-size: 1.3rem; flex-shrink: 0; }
+    .afl { font-size: .72rem; color: var(--text-muted); }
+    .afv { font-weight: 700; font-size: 1.05rem; color: var(--navy); }
+    .about-highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 28px 0; }
+    @media(max-width:500px) { .about-highlights { grid-template-columns: 1fr; } }
+    .about-hl { display: flex; align-items: flex-start; gap: 10px; padding: 13px 15px; background: var(--light-grey); border-radius: 10px; border-left: 3px solid var(--blue); font-size: .87rem; color: var(--slate); font-weight: 500; }
+    .owner-card { display: flex; align-items: center; gap: 16px; padding: 20px; background: linear-gradient(135deg,var(--navy),#1565c0); border-radius: var(--radius); color: #fff; margin-top: 24px; }
+    .owner-avatar { width: 52px; height: 52px; border-radius: 50%; background: rgba(255,255,255,.2); display: flex; align-items: center; justify-content: center; font-size: 1.4rem; flex-shrink: 0; }
+    .owner-name { font-weight: 600; font-size: .97rem; }
+    .owner-title { font-size: .78rem; color: rgba(255,255,255,.65); margin-top: 2px; }
+    .gst-badge { font-size: .7rem; color: rgba(255,255,255,.45); margin-top: 4px; }
+
+    /* SERVICES */
+    #services { background: var(--light-grey); }
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(260px,1fr)); gap: 22px; }
+    .service-card { background: #fff; border-radius: var(--radius-lg); padding: 30px 26px; box-shadow: var(--shadow-sm); border: 1px solid var(--border); transition: var(--tr); position: relative; overflow: hidden; }
+    .service-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg,var(--blue),var(--sky)); transform: scaleX(0); transform-origin: left; transition: transform var(--tr); }
+    .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-icon { width: 54px; height: 54px; border-radius: 13px; background: var(--light-blue); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; margin-bottom: 18px; transition: background var(--tr); }
+    .service-card:hover .service-icon { background: var(--blue); }
+    .service-name { font-family: 'Playfair Display',serif; font-size: 1.12rem; color: var(--navy); margin-bottom: 10px; }
+    .service-desc { font-size: .87rem; color: var(--text-muted); line-height: 1.6; }
+
+    /* WHY */
+    #why { background: #fff; }
+    .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+    @media(max-width:900px) { .why-grid { grid-template-columns: 1fr; gap: 40px; } }
+    .why-items { display: flex; flex-direction: column; gap: 18px; }
+    .why-item { display: flex; gap: 18px; padding: 22px; border-radius: var(--radius); border: 1px solid var(--border); transition: var(--tr); }
+    .why-item:hover { box-shadow: var(--shadow-md); border-color: var(--sky); transform: translateX(6px); }
+    .why-item-icon { width: 50px; height: 50px; border-radius: 12px; background: linear-gradient(135deg,var(--blue),var(--sky)); display: flex; align-items: center; justify-content: center; font-size: 1.3rem; flex-shrink: 0; color: #fff; }
+    .why-item-title { font-weight: 700; font-size: .95rem; color: var(--navy); margin-bottom: 5px; }
+    .why-item-desc { font-size: .85rem; color: var(--text-muted); line-height: 1.6; }
+    .why-visual { position: relative; }
+    .why-visual-bg { width: 100%; aspect-ratio: 4/5; background: linear-gradient(160deg,var(--navy) 0%,var(--blue) 100%); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative; }
+    .why-visual-pattern { position: absolute; inset: 0; background-image: radial-gradient(circle,rgba(255,255,255,.04) 1px,transparent 1px); background-size: 30px 30px; }
+    .why-big-number { font-family: 'Playfair Display',serif; font-size: 9rem; font-weight: 800; color: rgba(255,255,255,.06); line-height: 1; position: absolute; top: 20px; right: 20px; }
+    .why-stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; position: relative; z-index: 1; }
+    .why-stat-box { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.12); border-radius: 12px; padding: 22px 18px; text-align: center; }
+    .why-stat-num { font-family: 'Playfair Display',serif; font-size: 2.1rem; color: #fff; line-height: 1; }
+    .why-stat-label { font-size: .76rem; color: rgba(255,255,255,.55); margin-top: 6px; }
+
+    /* PROJECTS */
+    #projects { background: var(--light-grey); }
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(340px,1fr)); gap: 22px; }
+    .project-card { background: #fff; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid var(--border); transition: var(--tr); }
+    .project-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-md); }
+    .project-img { height: 210px; display: flex; align-items: center; justify-content: center; font-size: 3.5rem; position: relative; overflow: hidden; }
+    .project-img-label { position: absolute; bottom: 12px; left: 12px; background: rgba(0,0,0,.5); color: #fff; font-size: .7rem; font-weight: 500; padding: 4px 12px; border-radius: 20px; backdrop-filter: blur(6px); }
+    .project-body { padding: 22px; }
+    .project-tag { display: inline-block; font-size: .7rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--blue); background: var(--light-blue); padding: 3px 12px; border-radius: 20px; margin-bottom: 10px; }
+    .project-name { font-family: 'Playfair Display',serif; font-size: 1.08rem; color: var(--navy); margin-bottom: 8px; line-height: 1.3; }
+    .project-desc { font-size: .84rem; color: var(--text-muted); }
+
+    /* CLIENTS */
+    #clients { background: #fff; }
+    .clients-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(200px,1fr)); gap: 16px; }
+    .client-chip { display: flex; align-items: center; gap: 12px; background: var(--light-grey); border: 1px solid var(--border); border-radius: 12px; padding: 15px 18px; transition: var(--tr); font-size: .87rem; font-weight: 500; color: var(--navy); }
+    .client-chip:hover { background: var(--light-blue); border-color: var(--sky); box-shadow: var(--shadow-sm); }
+    .client-chip-icon { width: 34px; height: 34px; border-radius: 8px; background: linear-gradient(135deg,var(--blue),var(--sky)); display: flex; align-items: center; justify-content: center; color: #fff; font-size: .9rem; flex-shrink: 0; }
+
+    /* TESTIMONIALS */
+    #testimonials { background: var(--light-grey); }
+    .testimonials-grid { display: grid; grid-template-columns: repeat(auto-fill,minmax(320px,1fr)); gap: 22px; }
+    .testimonial-card { background: #fff; border-radius: var(--radius-lg); padding: 30px; box-shadow: var(--shadow-sm); border: 1px solid var(--border); position: relative; }
+    .testimonial-quote { font-size: 3rem; line-height: 0; position: absolute; top: 22px; right: 22px; color: var(--light-blue); font-family: Georgia,serif; }
+    .testimonial-stars { color: var(--accent); font-size: 1rem; margin-bottom: 14px; letter-spacing: 2px; }
+    .testimonial-text { font-size: .93rem; color: var(--slate); line-height: 1.7; margin-bottom: 22px; font-style: italic; }
+    .testimonial-author { display: flex; align-items: center; gap: 12px; }
+    .testimonial-avatar { width: 42px; height: 42px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.05rem; color: #fff; flex-shrink: 0; }
+    .testimonial-name { font-weight: 600; font-size: .88rem; color: var(--navy); }
+    .testimonial-role { font-size: .76rem; color: var(--text-muted); margin-top: 2px; }
+
+    /* CONTACT */
+    #contact { background: #fff; }
+    .contact-grid { display: grid; grid-template-columns: 5fr 7fr; gap: 60px; }
+    @media(max-width:900px) { .contact-grid { grid-template-columns: 1fr; } }
+    .contact-card { display: flex; gap: 14px; align-items: flex-start; padding: 18px; background: var(--light-grey); border-radius: var(--radius); margin-bottom: 12px; }
+    .contact-card-icon { width: 42px; height: 42px; border-radius: 10px; background: linear-gradient(135deg,var(--blue),var(--sky)); display: flex; align-items: center; justify-content: center; font-size: 1.05rem; color: #fff; flex-shrink: 0; }
+    .contact-info-label { font-size: .7rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--blue); margin-bottom: 6px; }
+    .contact-info-value { font-size: .97rem; color: var(--navy); font-weight: 500; }
+    .contact-info-sub { font-size: .82rem; color: var(--text-muted); margin-top: 3px; }
+    .map-container { border-radius: var(--radius); overflow: hidden; margin-top: 32px; border: 1px solid var(--border); height: 280px; }
+    .map-frame { width: 100%; height: 100%; border: 0; }
+    .contact-form { display: flex; flex-direction: column; gap: 18px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    @media(max-width:600px) { .form-row { grid-template-columns: 1fr; } }
+    .form-group { display: flex; flex-direction: column; gap: 7px; }
+    .form-label { font-size: .83rem; font-weight: 600; color: var(--navy); }
+    .form-input { padding: 12px 15px; border: 1.5px solid var(--border); border-radius: 8px; font-family: 'DM Sans',sans-serif; font-size: .93rem; color: #1a2332; transition: border-color var(--tr),box-shadow var(--tr); background: #fff; }
+    .form-input:focus { outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px rgba(21,101,192,.1); }
+    textarea.form-input { resize: vertical; min-height: 128px; }
+
+    /* CTA BANNER */
+    .cta-banner { background: linear-gradient(135deg,var(--navy) 0%,#0d47a1 100%); padding: 80px 0; text-align: center; position: relative; overflow: hidden; }
+    .cta-banner::before { content: ''; position: absolute; inset: 0; background-image: radial-gradient(circle at 20% 50%,rgba(66,165,245,.12) 0%,transparent 60%),radial-gradient(circle at 80% 50%,rgba(66,165,245,.08) 0%,transparent 60%); }
+    .cta-banner h2 { font-size: clamp(1.8rem,3.5vw,2.5rem); color: #fff; margin-bottom: 14px; position: relative; }
+    .cta-banner p { color: rgba(255,255,255,.7); font-size: 1rem; margin-bottom: 32px; position: relative; }
+    .cta-buttons { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; position: relative; }
+    .btn-wa { background: #25d366; color: #fff; box-shadow: 0 4px 20px rgba(37,211,102,.35); }
+    .btn-wa:hover { background: #1fba5a; transform: translateY(-2px); }
+
+    /* FOOTER */
+    footer { background: var(--navy); padding: 80px 0 0; color: rgba(255,255,255,.72); }
+    .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 48px; margin-bottom: 60px; }
+    @media(max-width:900px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; } }
+    @media(max-width:500px) { .footer-grid { grid-template-columns: 1fr; } }
+    .footer-logo-wrap { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; }
+    .footer-logo-icon { width: 42px; height: 42px; border-radius: 10px; background: linear-gradient(135deg,var(--blue),var(--sky)); display: flex; align-items: center; justify-content: center; font-size: 1.3rem; }
+    .footer-brand-name { font-family: 'Playfair Display',serif; font-size: 1.05rem; color: #fff; font-weight: 700; }
+    .footer-desc { font-size: .86rem; line-height: 1.7; color: rgba(255,255,255,.5); margin-bottom: 18px; }
+    .footer-gst { font-size: .75rem; color: rgba(255,255,255,.3); }
+    .footer-col-title { font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,.9); margin-bottom: 18px; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a { font-size: .86rem; color: rgba(255,255,255,.52); transition: color var(--tr); }
+    .footer-links a:hover { color: var(--sky); }
+    .footer-ci { display: flex; gap: 10px; margin-bottom: 12px; }
+    .footer-ci-icon { color: var(--sky); font-size: .9rem; margin-top: 2px; flex-shrink: 0; }
+    .footer-ci-text { font-size: .86rem; color: rgba(255,255,255,.5); line-height: 1.6; }
+    .footer-ci-text a { color: rgba(255,255,255,.5); }
+    .footer-ci-text a:hover { color: var(--sky); }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,.08); padding: 22px 0; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+    .footer-bottom p { font-size: .8rem; color: rgba(255,255,255,.32); }
+
+    /* WHATSAPP */
+    .whatsapp-float { position: fixed; bottom: 28px; right: 28px; z-index: 900; width: 60px; height: 60px; border-radius: 50%; background: #25d366; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 32px rgba(37,211,102,.45); cursor: pointer; transition: transform var(--tr),box-shadow var(--tr); }
+    .whatsapp-float:hover { transform: scale(1.1); box-shadow: 0 12px 40px rgba(37,211,102,.6); }
+    .whatsapp-float svg { width: 30px; height: 30px; fill: #fff; }
+    .wa-pulse { position: absolute; top: -4px; right: -4px; width: 14px; height: 14px; border-radius: 50%; background: var(--accent); animation: ping 1.5s ease infinite; }
+    @keyframes ping { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.4); opacity: .5; } }
+
+    /* SCROLL TOP */
+    #scrollTop { position: fixed; bottom: 28px; left: 28px; z-index: 900; width: 46px; height: 46px; border-radius: 50%; background: var(--blue); color: #fff; border: none; cursor: pointer; display: none; align-items: center; justify-content: center; box-shadow: var(--shadow-md); transition: transform var(--tr); font-size: 1.1rem; }
+    #scrollTop:hover { transform: translateY(-3px); }
+    #scrollTop.show { display: flex; }
+
+    @media(max-width:768px) { .section-pad { padding: 64px 0; } .hero-stats { gap: 24px; } }
+    @media(max-width:480px) { .services-grid,.projects-grid { grid-template-columns: 1fr; } .clients-grid { grid-template-columns: 1fr; } .hero-buttons { flex-direction: column; align-items: flex-start; } }
+
+    /* Form success */
+    .form-success { display: none; background: #e8f5e9; border: 1px solid #a5d6a7; border-radius: 8px; padding: 16px; text-align: center; color: #2e7d32; font-size: .88rem; font-weight: 500; }
+  </style>
+</head>
+<body>
+
+<!-- GUARANTEE STRIP -->
+<div class="guarantee-strip">⭐ 5–10 Year Workmanship Guarantee on All Projects &nbsp;|&nbsp; GST Registered: 07AKGPG6547E2Z7 &nbsp;|&nbsp; 📞 +91 82876 00897</div>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <div class="nav-logo-icon">💧</div>
+        <div class="nav-logo-text">
+          <div class="brand">Shivlingi Water Proofing</div>
+          <div class="tagline">Trusted Waterproofing Experts — Delhi</div>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#clients">Clients</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="tel:+918287600897" class="nav-cta">📞 Call Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav-close" id="mobileNavClose">✕</button>
+  <a href="#about" onclick="closeMobileNav()">About</a>
+  <a href="#services" onclick="closeMobileNav()">Services</a>
+  <a href="#projects" onclick="closeMobileNav()">Projects</a>
+  <a href="#clients" onclick="closeMobileNav()">Clients</a>
+  <a href="#testimonials" onclick="closeMobileNav()">Testimonials</a>
+  <a href="#contact" onclick="closeMobileNav()">Contact</a>
+  <a href="tel:+918287600897" style="color:var(--sky)">📞 +91 82876 00897</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-shapes"><div class="hero-shape"></div><div class="hero-shape"></div><div class="hero-shape"></div></div>
+  <div class="hero-grid"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge"><div class="hero-badge-dot"></div>Delhi's Trusted Waterproofing Experts Since 1999</div>
+      <h1 class="hero-title">
+        25+ Years of Trusted<br/>
+        <span class="accent-text">Waterproofing &amp; Construction</span><br/>
+        Solutions
+      </h1>
+      <p class="hero-sub">Reliable waterproofing and civil construction services for residential, commercial, metro, and infrastructure projects across Delhi NCR.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">📋 Get Free Quote</a>
+        <a href="tel:+918287600897" class="btn btn-outline">📞 +91 82876 00897</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="hero-stat-num">25<span class="hero-stat-accent">+</span></div><div class="hero-stat-label">Years of Experience</div></div>
+        <div><div class="hero-stat-num">500<span class="hero-stat-accent">+</span></div><div class="hero-stat-label">Projects Completed</div></div>
+        <div><div class="hero-stat-num">10<span class="hero-stat-accent">yr</span></div><div class="hero-stat-label">Max Guarantee</div></div>
+        <div><div class="hero-stat-num">50<span class="hero-stat-accent">+</span></div><div class="hero-stat-label">Reputed Clients</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-ind">SCROLL</div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="container">
+    <div class="trust-bar-inner">
+      <div class="trust-item"><span class="trust-item-icon">✅</span> GST Registered Company</div>
+      <div class="trust-div"></div>
+      <div class="trust-item"><span class="trust-item-icon">🚇</span> Metro &amp; Infrastructure Projects</div>
+      <div class="trust-div"></div>
+      <div class="trust-item"><span class="trust-item-icon">🛡️</span> 5–10 Year Workmanship Guarantee</div>
+      <div class="trust-div"></div>
+      <div class="trust-item"><span class="trust-item-icon">👷</span> Engineers, Supervisors &amp; Skilled Manpower</div>
+      <div class="trust-div"></div>
+      <div class="trust-item"><span class="trust-item-icon">🏆</span> 50+ Reputed Clients</div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="section-pad">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal-left">
+        <div class="about-main-img">
+          <div class="about-img-placeholder">
+            <div class="big-icon">🏗️</div>
+            <p style="font-size:1.1rem;font-weight:600">25+ Years of Excellence</p>
+            <p style="font-size:.8rem;margin-top:6px;opacity:.6">Waterproofing · Civil Work · Coatings</p>
+          </div>
+        </div>
+        <div class="about-float-card afc1">
+          <div class="about-float-icon">⭐</div>
+          <div><div class="afl">Workmanship Guarantee</div><div class="afv">5–10 Years</div></div>
+        </div>
+        <div class="about-float-card afc2">
+          <div class="about-float-icon">🏆</div>
+          <div><div class="afl">Projects Delivered</div><div class="afv">500+</div></div>
+        </div>
+      </div>
+
+      <div class="reveal-right">
+        <span class="section-label">About Us</span>
+        <h2 style="font-size:clamp(1.8rem,3vw,2.4rem);color:var(--navy);margin-bottom:20px;">Building Confidence Through Durable Waterproofing</h2>
+        <p style="color:var(--slate);font-size:.97rem;margin-bottom:14px;">Shivlingi Water Proofing has been protecting structures across Delhi NCR for over 25 years. From residential apartments to metro stations and industrial plants, we deliver waterproofing solutions that stand the test of time.</p>
+        <p style="color:var(--slate);font-size:.97rem;margin-bottom:14px;">Our team of engineers, supervisors, welders, fitters, and skilled construction professionals ensure every project is completed with the highest standards of quality, safety, and durability.</p>
+        <div class="about-highlights">
+          <div class="about-hl"><span>🔧</span> Skilled Engineers &amp; Supervisors</div>
+          <div class="about-hl"><span>🚇</span> Metro &amp; Infrastructure Projects</div>
+          <div class="about-hl"><span>🧪</span> Premium Quality Materials</div>
+          <div class="about-hl"><span>📋</span> GST Registered &amp; Compliant</div>
+          <div class="about-hl"><span>🏢</span> Residential &amp; Commercial</div>
+          <div class="about-hl"><span>🛡️</span> Workmanship Guarantee</div>
+        </div>
+        <div class="owner-card">
+          <div class="owner-avatar">👤</div>
+          <div>
+            <div class="owner-name">Mr. Avdhesh Giri</div>
+            <div class="owner-title">Founder &amp; Managing Director, Shivlingi Water Proofing</div>
+            <div class="gst-badge">GST: 07AKGPG6547E2Z7</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section-pad">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-label">Our Services</span>
+      <h2 class="section-title">Comprehensive Waterproofing &amp; Construction Services</h2>
+      <div class="divider"></div>
+      <p class="section-sub">From rooftops to basements, tunnels to terraces — we provide end-to-end waterproofing and construction solutions for every structure.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal"><div class="service-icon">💧</div><h3 class="service-name">Waterproofing</h3><p class="service-desc">Comprehensive waterproofing for rooftops, terraces, basements, and wet areas using modern techniques and proven materials.</p></div>
+      <div class="service-card reveal"><div class="service-icon">🏗️</div><h3 class="service-name">Civil Work</h3><p class="service-desc">Full-scale civil construction and repair carried out by trained engineers and supervisors ensuring structural integrity.</p></div>
+      <div class="service-card reveal"><div class="service-icon">🧪</div><h3 class="service-name">Chemical Coating</h3><p class="service-desc">Advanced chemical coatings providing superior protection against water ingress, corrosion, and environmental degradation.</p></div>
+      <div class="service-card reveal"><div class="service-icon">🔩</div><h3 class="service-name">Grouting</h3><p class="service-desc">Precision grouting to fill cracks, voids, and joints in concrete and masonry structures for lasting water resistance.</p></div>
+      <div class="service-card reveal"><div class="service-icon">✨</div><h3 class="service-name">Silicone Coating</h3><p class="service-desc">High-performance silicone sealant applications for glass, masonry, joints, and facades providing weather resistance.</p></div>
+      <div class="service-card reveal"><div class="service-icon">🏠</div><h3 class="service-name">Roof Sealant</h3><p class="service-desc">Professional roof sealant application that prevents water penetration and extends the lifespan of roof structures.</p></div>
+      <div class="service-card reveal"><div class="service-icon">🌡️</div><h3 class="service-name">Roof Insulation</h3><p class="service-desc">Thermal and waterproof roof insulation systems that reduce heat gain, prevent moisture, and improve energy efficiency.</p></div>
+      <div class="service-card reveal"><div class="service-icon">🪨</div><h3 class="service-name">Stone Waterproofing</h3><p class="service-desc">Specialized treatments for natural and engineered stone surfaces, preserving aesthetics while preventing water damage.</p></div>
+      <div class="service-card reveal"><div class="service-icon">🔵</div><h3 class="service-name">PU Coating</h3><p class="service-desc">Polyurethane liquid waterproofing coatings offering seamless, flexible, and highly durable protection for all surfaces.</p></div>
+      <div class="service-card reveal"><div class="service-icon">💡</div><h3 class="service-name">PU Grouting</h3><p class="service-desc">Polyurethane injection grouting for structural crack repair, waterproofing, and stabilization in concrete structures.</p></div>
+      <div class="service-card reveal"><div class="service-icon">📦</div><h3 class="service-name">APP Membrane</h3><p class="service-desc">Atactic Polypropylene modified bitumen membrane for heavy-duty waterproofing on roofs and foundations.</p></div>
+      <div class="service-card reveal"><div class="service-icon">🎨</div><h3 class="service-name">POP &amp; Painting</h3><p class="service-desc">Plaster of Paris finishing and premium painting services for interior and exterior walls with smooth, durable results.</p></div>
+      <div class="service-card reveal"><div class="service-icon">🧱</div><h3 class="service-name">Brick Bat Coba</h3><p class="service-desc">Traditional brick bat coba waterproofing treatment for terraces and flat roofs — time-tested protection for Indian structures.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why" class="section-pad">
+  <div class="container">
+    <div class="why-grid">
+      <div>
+        <span class="section-label reveal">Why Choose Us</span>
+        <h2 class="section-title reveal" style="text-align:left;margin-bottom:12px;">Why Delhi's Best Choose<br/>Shivlingi Water Proofing</h2>
+        <div class="divider" style="margin-left:0;"></div>
+        <div class="why-items">
+          <div class="why-item reveal"><div class="why-item-icon">📅</div><div><div class="why-item-title">25+ Years of Industry Experience</div><div class="why-item-desc">Decades of hands-on expertise across residential, commercial, metro, and industrial waterproofing projects in Delhi NCR.</div></div></div>
+          <div class="why-item reveal"><div class="why-item-icon">👷</div><div><div class="why-item-title">Highly Skilled Workforce</div><div class="why-item-desc">Our team includes trained engineers, supervisors, welders, fitters, and experienced construction manpower for every job.</div></div></div>
+          <div class="why-item reveal"><div class="why-item-icon">🏢</div><div><div class="why-item-title">Projects with Reputed Companies</div><div class="why-item-desc">Trusted by Bajaj Energy, C&amp;C Construction, Mahagun Real Estate, Delhi Metro, and many more leading organizations.</div></div></div>
+          <div class="why-item reveal"><div class="why-item-icon">🧪</div><div><div class="why-item-title">Premium Quality Materials</div><div class="why-item-desc">We use only tested, industry-approved waterproofing materials and coatings for maximum durability and performance.</div></div></div>
+          <div class="why-item reveal"><div class="why-item-icon">🛡️</div><div><div class="why-item-title">5–10 Year Workmanship Guarantee</div><div class="why-item-desc">Every project comes backed with our comprehensive guarantee — your investment in waterproofing is fully protected.</div></div></div>
+          <div class="why-item reveal"><div class="why-item-icon">📋</div><div><div class="why-item-title">Professional Project Execution</div><div class="why-item-desc">From site assessment to final handover, we follow a structured, professional approach to every project we undertake.</div></div></div>
+        </div>
+      </div>
+
+      <div class="why-visual reveal-right">
+        <div class="why-visual-bg">
+          <div class="why-visual-pattern"></div>
+          <div class="why-big-number">25</div>
+          <div class="why-stat-grid">
+            <div class="why-stat-box"><div class="why-stat-num">25+</div><div class="why-stat-label">Years Experience</div></div>
+            <div class="why-stat-box"><div class="why-stat-num">500+</div><div class="why-stat-label">Projects Done</div></div>
+            <div class="why-stat-box"><div class="why-stat-num">50+</div><div class="why-stat-label">Reputed Clients</div></div>
+            <div class="why-stat-box"><div class="why-stat-num">10yr</div><div class="why-stat-label">Max Guarantee</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section-pad">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-label">Our Portfolio</span>
+      <h2 class="section-title">Major Projects</h2>
+      <div class="divider"></div>
+      <p class="section-sub">From power plants to metro stations to luxury real estate — our work speaks for itself.</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-img" style="background:linear-gradient(135deg,#1a3a6e,#2a5298);">⚡<div class="project-img-label">Lalitpur, UP</div></div>
+        <div class="project-body"><span class="project-tag">Power Plant</span><h3 class="project-name">LPGCL Project Lalitpur — Bajaj Energy</h3><p class="project-desc">Large-scale waterproofing and grouting works for the Lalitpur Power Generation Company Limited thermal power plant.</p></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-img" style="background:linear-gradient(135deg,#1b4f40,#2e8b57);">🏭<div class="project-img-label">Faridabad, Haryana</div></div>
+        <div class="project-body"><span class="project-tag">Industrial</span><h3 class="project-name">Imperial Auto Industries — Roof Slab Waterproofing</h3><p class="project-desc">Comprehensive roof slab waterproofing for the Imperial Auto Industries manufacturing facility in Faridabad.</p></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-img" style="background:linear-gradient(135deg,#3d1a6e,#7b2fbe);">🏛️<div class="project-img-label">New Delhi</div></div>
+        <div class="project-body"><span class="project-tag">Institutional</span><h3 class="project-name">Mahavir Enclave Head Office &amp; Museum</h3><p class="project-desc">Complete waterproofing and civil work for the Mahavir Enclave Head Office and Museum complex in New Delhi.</p></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-img" style="background:linear-gradient(135deg,#1a2e5e,#0d47a1);">🚇<div class="project-img-label">Delhi Metro</div></div>
+        <div class="project-body"><span class="project-tag">Metro Infrastructure</span><h3 class="project-name">Shalimar Bagh Metro Station</h3><p class="project-desc">Waterproofing works for the Shalimar Bagh station on the Delhi Metro network, ensuring long-term water resistance.</p></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-img" style="background:linear-gradient(135deg,#1a3a4e,#1976d2);">🚇<div class="project-img-label">Delhi Metro</div></div>
+        <div class="project-body"><span class="project-tag">Metro Infrastructure</span><h3 class="project-name">Maujpur Metro Station</h3><p class="project-desc">Professional waterproofing solutions for Maujpur Metro Station on Delhi's expanding rapid transit network.</p></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-img" style="background:linear-gradient(135deg,#1e3a5f,#2196f3);">🚇<div class="project-img-label">Delhi Metro</div></div>
+        <div class="project-body"><span class="project-tag">Metro Infrastructure</span><h3 class="project-name">Moti Bagh Metro Station</h3><p class="project-desc">Waterproofing services protecting the Moti Bagh metro station infrastructure from water ingress.</p></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-img" style="background:linear-gradient(135deg,#0d2b4e,#1565c0);">🚇<div class="project-img-label">Delhi MRTS Phase III</div></div>
+        <div class="project-body"><span class="project-tag">Metro Infrastructure</span><h3 class="project-name">Delhi MRTS Phase III — Waterproofing Works</h3><p class="project-desc">Extensive waterproofing across multiple stations and structures for Delhi Mass Rapid Transit System Phase III.</p></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-img" style="background:linear-gradient(135deg,#2e4a1a,#558b2f);">🏢<div class="project-img-label">Sector 78, Noida</div></div>
+        <div class="project-body"><span class="project-tag">Real Estate</span><h3 class="project-name">Mahagun Moderne — Sector 78, Noida</h3><p class="project-desc">Waterproofing services for the prestigious Mahagun Moderne residential complex in Sector 78, Noida.</p></div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-img" style="background:linear-gradient(135deg,#4a2a1a,#bf6429);">🌺<div class="project-img-label">Noida</div></div>
+        <div class="project-body"><span class="project-tag">Real Estate</span><h3 class="project-name">Lotus Boulevard — Noida</h3><p class="project-desc">Complete waterproofing solution for the Lotus Boulevard high-rise residential development in Noida.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section id="clients" class="section-pad" style="background:#fff;">
+  <div class="container">
+    <div class="section-head reveal" style="max-width:600px;margin:0 auto 56px;">
+      <span class="section-label">Reputed Clients</span>
+      <h2 class="section-title">Trusted by Industry Leaders</h2>
+      <div class="divider"></div>
+      <p class="section-sub">Proud to have served some of India's most respected organizations in energy, real estate, and infrastructure.</p>
+    </div>
+    <div class="clients-grid">
+      <div class="client-chip reveal"><div class="client-chip-icon">⚡</div>Bajaj Energy</div>
+      <div class="client-chip reveal"><div class="client-chip-icon">🏭</div>Imperial Auto Industries</div>
+      <div class="client-chip reveal"><div class="client-chip-icon">🏗️</div>SS SS Constructions Pvt. Ltd.</div>
+      <div class="client-chip reveal"><div class="client-chip-icon">🏢</div>C &amp; C Construction Ltd.</div>
+      <div class="client-chip reveal"><div class="client-chip-icon">🧪</div>CICO Technologies Ltd.</div>
+      <div class="client-chip reveal"><div class="client-chip-icon">🏙️</div>Mahagun Real Estate Pvt. Ltd.</div>
+      <div class="client-chip reveal"><div class="client-chip-icon">🔧</div>Skyline Engineering Pvt. Ltd.</div>
+      <div class="client-chip reveal"><div class="client-chip-icon">🌆</div>Three C Universal Developers</div>
+      <div class="client-chip reveal"><div class="client-chip-icon">⚙️</div>East India Engineers</div>
+      <div class="client-chip reveal"><div class="client-chip-icon">🤝</div>Sulabh International</div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section-pad">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-label">Testimonials</span>
+      <h2 class="section-title">What Our Clients Say</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-quote">"</div>
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">Shivlingi Water Proofing delivered exceptional waterproofing for our industrial facility. The quality exceeded our expectations. We haven't had a single leakage issue since the work was completed.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar" style="background:linear-gradient(135deg,#1565c0,#42a5f5)">R</div>
+          <div><div class="testimonial-name">Rajesh Sharma</div><div class="testimonial-role">Project Manager, Industrial Facility</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="testimonial-quote">"</div>
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">We engaged Shivlingi for our terrace and basement waterproofing. Mr. Avdhesh Giri personally supervised the work and ensured everything was done to the highest standards. Highly professional and reliable.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar" style="background:linear-gradient(135deg,#2e7d32,#66bb6a)">P</div>
+          <div><div class="testimonial-name">Priya Mehta</div><div class="testimonial-role">Homeowner, Dwarka, New Delhi</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="testimonial-quote">"</div>
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">The team handled our commercial building's APP membrane installation flawlessly. The 10-year guarantee gives us complete peace of mind. We'll definitely engage Shivlingi for our future projects.</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar" style="background:linear-gradient(135deg,#e65100,#ff9800)">A</div>
+          <div><div class="testimonial-name">Anil Gupta</div><div class="testimonial-role">Director, Real Estate Developer</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div class="cta-banner">
+  <div class="container">
+    <h2>Ready to Waterproof Your Property?</h2>
+    <p>Get a free site inspection and detailed quotation from our expert team today.</p>
+    <div class="cta-buttons">
+      <a href="#contact" class="btn btn-accent">📋 Get Free Quote</a>
+      <a href="tel:+918287600897" class="btn btn-outline">📞 Call +91 82876 00897</a>
+      <a href="https://wa.me/918287600897" target="_blank" class="btn btn-wa">💬 WhatsApp Us</a>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section id="contact" class="section-pad">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-label">Contact Us</span>
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="divider"></div>
+      <p class="section-sub">Fill out the form or reach us directly. We respond quickly.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal-left">
+        <div class="contact-card">
+          <div class="contact-card-icon">📞</div>
+          <div>
+            <div class="contact-info-label">Phone</div>
+            <div class="contact-info-value"><a href="tel:+918287600897">+91 82876 00897</a></div>
+            <div class="contact-info-sub">Mon–Sat, 9am–7pm IST</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">✉️</div>
+          <div>
+            <div class="contact-info-label">Email</div>
+            <div class="contact-info-value"><a href="mailto:avdheshgiriwaterproof@gmail.com">avdheshgiriwaterproof@gmail.com</a></div>
+            <div class="contact-info-sub">We reply within 24 hours</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">📍</div>
+          <div>
+            <div class="contact-info-label">Address</div>
+            <div class="contact-info-value">Ashirvad Apartment, Flat No. 447</div>
+            <div class="contact-info-sub">1st Floor, Sector-16B, Dwarka<br/>New Delhi – 110078</div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="contact-card-icon">💬</div>
+          <div>
+            <div class="contact-info-label">WhatsApp</div>
+            <div class="contact-info-value"><a href="https://wa.me/918287600897" target="_blank">Chat on WhatsApp</a></div>
+            <div class="contact-info-sub">Quick responses for queries</div>
+          </div>
+        </div>
+        <div class="map-container">
+          <iframe class="map-frame"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.456!2d77.0731!3d28.5840!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b3b6f58555b%3A0x7b79d3a0f9a8c09!2sSector%2016B%2C%20Dwarka%2C%20New%20Delhi%2C%20Delhi%20110078!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Shivlingi Water Proofing, Sector 16B Dwarka New Delhi">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="reveal-right">
+        <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group"><label class="form-label" for="name">Full Name *</label><input class="form-input" type="text" id="name" placeholder="Your full name" required /></div>
+            <div class="form-group"><label class="form-label" for="phone">Phone Number *</label><input class="form-input" type="tel" id="phone" placeholder="+91 00000 00000" required /></div>
+          </div>
+          <div class="form-group"><label class="form-label" for="email">Email Address</label><input class="form-input" type="email" id="email" placeholder="your@email.com" /></div>
+          <div class="form-group">
+            <label class="form-label" for="service">Service Required</label>
+            <select class="form-input" id="service">
+              <option value="">— Select a service —</option>
+              <option>Waterproofing</option><option>Civil Work</option><option>Chemical Coating</option>
+              <option>Grouting / PU Grouting</option><option>Silicone Coating</option><option>Roof Sealant</option>
+              <option>Roof Insulation</option><option>Stone Waterproofing</option><option>PU Coating</option>
+              <option>APP Membrane</option><option>POP &amp; Painting</option><option>Brick Bat Coba</option>
+              <option>Other / General Query</option>
+            </select>
+          </div>
+          <div class="form-group"><label class="form-label" for="message">Message *</label><textarea class="form-input" id="message" placeholder="Describe your waterproofing or construction requirement, including property type and location..." required></textarea></div>
+          <button type="submit" class="btn btn-primary" id="submitBtn" style="width:100%;justify-content:center;font-size:1rem;padding:15px;">📤 Send Message</button>
+          <p style="font-size:.78rem;color:var(--text-muted);text-align:center;margin-top:6px;">We typically respond within a few hours during business days.</p>
+          <div class="form-success" id="formSuccess">✅ Thank you! We've received your message and will contact you shortly.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo-wrap">
+          <div class="footer-logo-icon">💧</div>
+          <div>
+            <div class="footer-brand-name">Shivlingi Water Proofing</div>
+            <div style="font-size:.68rem;color:rgba(255,255,255,.35);margin-top:2px;">New Delhi, India</div>
+          </div>
+        </div>
+        <p class="footer-desc">Over 25 years of trusted waterproofing and construction expertise. Protecting structures across Delhi NCR with premium materials and a guaranteed workmanship promise.</p>
+        <div class="footer-gst">GST No.: 07AKGPG6547E2Z7</div>
+      </div>
+      <div>
+        <div class="footer-col-title">Quick Links</div>
+        <ul class="footer-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#clients">Our Clients</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Services</div>
+        <ul class="footer-links">
+          <li><a href="#services">Waterproofing</a></li>
+          <li><a href="#services">Civil Work</a></li>
+          <li><a href="#services">PU Coating</a></li>
+          <li><a href="#services">APP Membrane</a></li>
+          <li><a href="#services">Grouting</a></li>
+          <li><a href="#services">Brick Bat Coba</a></li>
+          <li><a href="#services">Roof Insulation</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Contact Info</div>
+        <div class="footer-ci"><span class="footer-ci-icon">📍</span><div class="footer-ci-text">Ashirvad Apartment, Flat No. 447, 1st Floor, Sector-16B, Dwarka, New Delhi – 110078</div></div>
+        <div class="footer-ci"><span class="footer-ci-icon">📞</span><div class="footer-ci-text"><a href="tel:+918287600897">+91 82876 00897</a></div></div>
+        <div class="footer-ci"><span class="footer-ci-icon">✉️</span><div class="footer-ci-text"><a href="mailto:avdheshgiriwaterproof@gmail.com">avdheshgiriwaterproof@gmail.com</a></div></div>
+        <div class="footer-ci"><span class="footer-ci-icon">💬</span><div class="footer-ci-text"><a href="https://wa.me/918287600897" target="_blank">WhatsApp Chat</a></div></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Shivlingi Water Proofing. All rights reserved. | Proprietor: Mr. Avdhesh Giri</p>
+      <p>Delhi NCR's Trusted Waterproofing Specialists</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a class="whatsapp-float" href="https://wa.me/918287600897" target="_blank" aria-label="Chat on WhatsApp">
+  <div class="wa-pulse"></div>
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- SCROLL TOP -->
+<button id="scrollTop" aria-label="Scroll to top">↑</button>
+
+<script>
+  // Navbar
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 50);
+    document.getElementById('scrollTop').classList.toggle('show', window.scrollY > 400);
+  });
+
+  // Mobile nav
+  document.getElementById('hamburger').addEventListener('click', () => document.getElementById('mobileNav').classList.add('open'));
+  document.getElementById('mobileNavClose').addEventListener('click', closeMobileNav);
+  function closeMobileNav() { document.getElementById('mobileNav').classList.remove('open'); }
+
+  // Scroll top
+  document.getElementById('scrollTop').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  // Reveal on scroll
+  const reveals = document.querySelectorAll('.reveal,.reveal-left,.reveal-right');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const siblings = Array.from(entry.target.parentElement.children).filter(el => el.matches('.reveal,.reveal-left,.reveal-right'));
+        const idx = siblings.indexOf(entry.target);
+        setTimeout(() => entry.target.classList.add('visible'), Math.min(idx * 80, 500));
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -30px 0px' });
+  reveals.forEach(el => obs.observe(el));
+
+  // Form submit
+  function handleSubmit(e) {
+    e.preventDefault();
+    const btn = document.getElementById('submitBtn');
+    btn.textContent = 'Sending…'; btn.disabled = true;
+    setTimeout(() => {
+      document.getElementById('formSuccess').style.display = 'block';
+      btn.textContent = '✅ Message Sent!';
+      e.target.reset();
+      setTimeout(() => {
+        btn.textContent = '📤 Send Message'; btn.disabled = false;
+        document.getElementById('formSuccess').style.display = 'none';
+      }, 6000);
+    }, 1200);
+  }
+</script>
+</body>
+</html>
